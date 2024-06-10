@@ -45,30 +45,8 @@ let products = [
         image: '5.jpeg',
         price: 'السعر '
     },
-    {
-        id: 6,
-        name: 'منتج 6',
-        image: '6.PNG',
-        price: 320
-    },
-    {
-        id: 7,
-        name: 'منتج 7',
-        image: '7.PNG',
-        price: 120
-    },
-    {
-        id: 8,
-        name: 'منتج 8',
-        image: '6.PNG',
-        price: 32
-    },
-    {
-        id: 9,
-        name: 'منتج 9',
-        image: '7.PNG',
-        price: 3210
-    },
+   
+    
 ];
 let listCards  = [];
 function initApp(){
