@@ -1,0 +1,116 @@
+/* MADIA QUERIES */
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+        overflow: hidden;
+        display: block;
+        overflow-x: scroll;
+    }
+
+    .container {
+        width: 100%;
+        height: 90em;
+        display: grid;
+        margin-bottom: 0px;
+        gap: 0px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+        overflow-x: scroll;
+    }
+
+    .list {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7px;
+        margin-top: 20px;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        /* overflow: scroll; */
+    }
+
+    .list .item {
+        width: 80%;
+        height: 16em;
+        text-align: center;
+        background-color: #efefef;
+        padding: 25px;
+        margin-bottom: 10px;
+        box-shadow: 0 50px 50px #757676;
+        letter-spacing: 2px;
+        /* overflow: scroll; */
+    }
+
+    .list .item:hover {
+        background-color: #77abcf63;
+    }
+    
+    .list .item img {
+        width: 100%;
+        height: 125px;
+    }
+
+    .list .item .title {
+        font-weight: 900;
+        font-size: larger;
+        height: 1em;
+    }
+
+    .list .item .price {
+        margin: 9px 0px -6px;
+    }
+    
+    .list .item:hover .total{
+        color: #efefef;
+    }
+    .list .item:hover .price{
+        color: #000;
+    }
+
+    .list .item button {
+        background-color: #dadada;
+        color: #757676;
+        font-size: 8px;
+        font-weight: bold;
+        width: 75%;
+        padding: 2px;
+        border: 5px solid #757676;
+        border-radius: 50px;
+        -webkit-border-radius: 41px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        -webkit-transition: all 0.25s ease;
+        -moz-transition: all 0.25s ease;
+        -ms-transition: all 0.25s ease;
+        -o-transition: all 0.25s ease;
+    }
+    
+    .list .item button:hover {
+        background-color: #1edd04;
+        color: #efefef;
+    }
+    
+    .listCard li {
+        display: grid;
+        grid-template-columns: 100px repeat(3, 1fr);
+        color: #fff;
+        row-gap: 10px;
+    }
+    .listCard li div{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .listCard li img {
+        width: 90%;
+    }
+    
+}
