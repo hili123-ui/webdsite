@@ -15,7 +15,7 @@
     height: 150px;
     padding: 100px 10px;
     display: flex;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./svg/banner.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../svg/banner.png);
     background-position: center;
     background-position: center;
     background-size: cover;
