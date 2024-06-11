@@ -37,7 +37,7 @@ let products = [
         id: 4,
         name: 'منتج 4',
         image: '4.png',
-        price: 123
+        price: 1203
     },
     {
         id: 5,
@@ -50,21 +50,21 @@ let products = [
         id: 6,
         name: 'منتج 6',
         image: '6.png',
-        price: 123
+        price: 1023
     }
     ,
     {
         id: 7,
         name: 'منتج 7',
         image: '7.png',
-        price: 123
+        price: 1200
     }
     ,
     {
         id: 8,
         name: 'منتج 8',
         image: '8.png',
-        price: 123
+        price: 300
     }
    
     
