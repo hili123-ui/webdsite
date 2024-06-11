@@ -65,7 +65,7 @@ let products = [
         name: 'منتج 8',
         image: '8.png',
         price: 300
-    }
+    },
    
     
 ];
