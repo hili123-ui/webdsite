@@ -24,19 +24,19 @@ let products = [
     {
         id: 2,
         name: 'منتج 2',
-        image: '2.PNG',
+        image: '2.png',
         price: 1200
     },
     {
         id: 3,
         name: 'منتج 3',
-        image: '3.PNG',
+        image: '3.png',
         price: 2200
     },
     {
         id: 4,
         name: 'منتج 4',
-        image: '4.PNG',
+        image: '4.png',
         price: 123
     },
     {
@@ -45,6 +45,27 @@ let products = [
         image: '5.jpeg',
         price: 'السعر '
     },
+    ,
+    {
+        id: 6,
+        name: 'منتج 6',
+        image: '6.png',
+        price: 123
+    }
+    ,
+    {
+        id: 7,
+        name: 'منتج 7',
+        image: '7.png',
+        price: 123
+    }
+    ,
+    {
+        id: 8,
+        name: 'منتج 8',
+        image: '8.png',
+        price: 123
+    }
    
     
 ];
