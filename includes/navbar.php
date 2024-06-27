@@ -12,7 +12,7 @@
             <span class="menu">
                 <li class="<?php if($page=='index.php'){echo 'active';}?>" ><form action="index.php" method="post"><a href="/project/index.php">المتجر</a></li>
                 <li class="<?php if($page=='register_form.php'){echo 'active';}?>"><form action="register_form.php" method="post"><a href="/project/includes/register_form.php">تسجيل حساب جديد</a></li>
-                <li class="<?php if($page=='login.php'){echo 'active';}?>"><form action="login.php" method="post"><a href="/project/includes/login.php">تسجيل دخول</a></li>
+                <li class="<?php if($page=='login.php'){echo 'active';}?>"><form action="login.php" method="post"><a href="includes/login.php">تسجيل دخول</a></li>
                 <li><a href="#">حسابي</a></li>
                 <li><a href="#">Contact</a></li>
                 <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
