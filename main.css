@@ -1,2 +1,7 @@
-@import url(./apps/style.css);
 @import url(./apps/media.css);
+
+@import url(./apps/style.css);
+
+@import url(./apps/nav-bar.css);
+
+@import url(./apps/register_form.css);

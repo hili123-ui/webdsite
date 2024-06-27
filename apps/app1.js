@@ -1,3 +1,23 @@
+/*=============== SHOW MENU ===============*/
+// const showMenu = (toggleId, navId) =>{
+//    const toggle = document.getElementById(toggleId),
+//          nav = document.getElementById(navId)
+
+//    toggle.addEventListener('click', () =>{
+//        // Add show-menu class to nav menu
+//        nav.classList.toggle('show-menu')
+
+//        // Add show-icon to show and hide the menu icon
+//        toggle.classList.toggle('show-icon')
+//    })
+// }
+
+// showMenu('nav-toggle','nav-menu')
+
+
+/*===shopping cart===*/
+
+
 let openShopping = document.querySelector('.shopping');
 let closeShopping = document.querySelector('.closeShopping');
 let list = document.querySelector('.list');
@@ -19,55 +39,65 @@ let products = [
         id: 1,
         name: 'منتج 1',
         image: '1.png',
+        cash : 'ريال',
         price: 1220
     },
     {
         id: 2,
         name: 'منتج 2',
         image: '2.png',
+        cash : 'ريال',
         price: 1200
     },
     {
         id: 3,
         name: 'منتج 3',
         image: '3.png',
+        cash : 'ريال',
         price: 2200
     },
     {
         id: 4,
         name: 'منتج 4',
         image: '4.png',
-        price: 1203
+        cash : 'ريال',
+        price: 123
     },
     {
         id: 5,
         name: 'منتج 5',
-        image: '5.png',
-        price: 'السعر '
+        image: '5.jpeg',
+        cash : 'ريال',
+        price:  439
     },
-    ,
     {
         id: 6,
         name: 'منتج 6',
         image: '6.png',
-        price: 1023
-    }
-    ,
+        cash : 'ريال',
+        price: 320
+    },
     {
         id: 7,
         name: 'منتج 7',
         image: '7.png',
-        price: 1200
-    }
-    ,
+        cash : 'ريال',
+        price: 120
+    },
     {
         id: 8,
         name: 'منتج 8',
-        image: '8.png',
-        price: 300
+        image: '6.png',
+        cash : 'ريال',
+        price: 32
     },
-   
-    
+    {
+        id: 9,
+        name: 'منتج 9',
+        image: '7.png',
+        cash : 'ريال',
+        price: 3210
+    },
 ];
 let listCards  = [];
 function initApp(){
@@ -77,7 +107,9 @@ function initApp(){
         newDiv.innerHTML = `
             <img src="svg/${value.image}">
             <div class="title">${value.name}</div>
-            <div class="price">${value.price.toLocaleString()}</div>
+            
+            <div class="price">${value.price.toLocaleString()}${value.cash}</div>
+            
             <button onclick="addToCard(${key})">اضافه الي العربه</button>`;
         list.appendChild(newDiv);
     })
@@ -103,7 +135,7 @@ function reloadCard(){
             newDiv.innerHTML = `
                 <div><img src="svg/${value.image}"/></div>
                 <div>${value.name}</div>
-                <div>${value.price.toLocaleString()}</div>
+                <div>${value.price.toLocaleString()}<div>${value.cash}</div></div>
                 <div>
                     <button onclick="changeQuantity(${key}, ${value.quantity - 1})">-</button>
                     <div class="count">${value.quantity}</div>
@@ -129,3 +161,5 @@ function changeQuantity(key, quantity){
     }
     reloadCard();
 }
+
+
